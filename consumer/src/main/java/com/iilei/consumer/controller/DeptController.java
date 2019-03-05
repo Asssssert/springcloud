@@ -14,7 +14,7 @@ import java.util.List;
 public class DeptController {
     @Autowired
     private RestTemplate restTemplate;
-    public static final String REST_API_PREFIX = "http://localhost:8085/provider/dept";
+    public static final String REST_API_PREFIX = "http://localhost:8085/dept";
 
 
     @PostMapping(value = "/consumer/add")

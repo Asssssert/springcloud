@@ -1,20 +1,21 @@
 server:
-  port: 8085
+  port: 8001
 
 spring:
   application:
-    name: provider
+    name: provider-dept
   datasource:
-    type: com.alibaba.druid.pool.DruidDataSource            # µ±Ç°Êı¾İÔ´²Ù×÷ÀàĞÍ
-    driver-class-name: com.mysql.cj.jdbc.Driver             # mysqlÇı¶¯°ü
-    url: jdbc:mysql://localhost:3306/cloud01?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf8&useSSL=false              # Êı¾İ¿âÃû³Æ
+    type: com.alibaba.druid.pool.DruidDataSource            # ï¿½ï¿½Ç°ï¿½ï¿½ï¿½ï¿½Ô´ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    driver-class-name: com.mysql.cj.jdbc.Driver             # mysqlï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+    url: jdbc:mysql://localhost:3306/cloud01?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf8&useSSL=false              # ï¿½ï¿½ï¿½İ¿ï¿½ï¿½ï¿½ï¿½ï¿½
     username: root
     password: iamlilei
     dbcp2:
-      min-idle: 5                                           # Êı¾İ¿âÁ¬½Ó³ØµÄ×îĞ¡Î¬³ÖÁ¬½ÓÊı
-      initial-size: 5                                       # ³õÊ¼»¯Á¬½ÓÊı
-      max-total: 5                                          # ×î´óÁ¬½ÓÊı
-      max-wait-millis: 200                                  # µÈ´ıÁ¬½Ó»ñÈ¡µÄ×î´ó³¬Ê±Ê±¼ä
+      min-idle: 5                                           # ï¿½ï¿½ï¿½İ¿ï¿½ï¿½ï¿½ï¿½Ó³Øµï¿½ï¿½ï¿½Ğ¡Î¬ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+      initial-size: 5                                       # ï¿½ï¿½Ê¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+      max-total: 5                                          # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½
+      max-wait-millis: 200                                  # ï¿½È´ï¿½ï¿½ï¿½ï¿½Ó»ï¿½È¡ï¿½ï¿½ï¿½ï¿½ï¿½Ê±Ê±ï¿½ï¿½
+
 
 #mybatis:
 mybatis:
@@ -22,3 +23,17 @@ mybatis:
   type-aliases-package: com.iilei.api.entity
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/,
+  instance:
+    instance-id: provider-dept-8001  #ä¿®æ”¹Statusæ˜¾ç¤ºçš„å†…å®¹
+    prefer-ip-address: true #è®¿é—®è·¯å¾„æ˜¾ç¤ºIPåœ°å€
+info:
+  app.name: deptå¾®æœåŠ¡
+  company.name: iilei
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
