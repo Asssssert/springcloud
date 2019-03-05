@@ -1,0 +1,39 @@
+server:
+  port: 8002
+
+spring:
+  application:
+    name: provider-dept
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource            # ��ǰ����Դ��������
+    driver-class-name: com.mysql.cj.jdbc.Driver             # mysql������
+    url: jdbc:mysql://localhost:3306/cloud02?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf8&useSSL=false              # ���ݿ�����
+    username: root
+    password: iamlilei
+    dbcp2:
+      min-idle: 5                                           # ���ݿ����ӳص���Сά��������
+      initial-size: 5                                       # ��ʼ��������
+      max-total: 5                                          # ���������
+      max-wait-millis: 200                                  # �ȴ����ӻ�ȡ�����ʱʱ��
+
+
+#mybatis:
+mybatis:
+  config-location: classpath:mybatis/mybatis.cfg.xml
+  type-aliases-package: com.iilei.api.entity
+  mapper-locations:
+  - classpath:mybatis/mapper/**/*.xml
+
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka7001.com:7001/eureka/,http://eureka7002.com:7002/eureka/,http://eureka7003.com:7003/eureka/,
+  instance:
+    instance-id: provider-dept-8002  #修改Status显示的内容
+    prefer-ip-address: true #访问路径显示IP地址
+info:
+  app.name: dept微服务
+  company.name: iilei
+  build.artifactId: $project.artifactId$
+  build.version: $project.version$
