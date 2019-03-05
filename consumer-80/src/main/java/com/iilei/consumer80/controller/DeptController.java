@@ -1,4 +1,4 @@
-package com.iilei.consumer.controller;
+package com.iilei.consumer80.controller;
 
 import com.iilei.api.entity.Dept;
 import org.springframework.beans.factory.annotation.Autowired;
