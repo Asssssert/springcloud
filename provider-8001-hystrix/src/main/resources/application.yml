@@ -34,8 +34,8 @@ eureka:
 info:
   app.name: dept微服务
   company.name: iilei
-  build.artifactId: $project.artifactId$
-  build.version: $project.version$
+  build.artifactId: ${project.artifactId}
+  build.version: ${project.version}
 management:
   endpoints:
     web:
