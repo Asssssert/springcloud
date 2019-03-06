@@ -17,6 +17,7 @@
         <option value="$PROJECT_DIR$/consumer-feign-80/pom.xml" />
         <option value="$PROJECT_DIR$/provider-8001-hystrix/pom.xml" />
         <option value="$PROJECT_DIR$/consumer-hystrix-dashborad-9001/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul-9527/pom.xml" />
       </list>
     </option>
   </component>
