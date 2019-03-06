@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-80/consumer-80.iml" filepath="$PROJECT_DIR$/consumer-80/consumer-80.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-feign-80/consumer-feign-80.iml" filepath="$PROJECT_DIR$/consumer-feign-80/consumer-feign-80.iml" />
+      <module fileurl="file://$PROJECT_DIR$/consumer-hystrix-dashborad-9001/consumer-hystrix-dashborad-9001.iml" filepath="$PROJECT_DIR$/consumer-hystrix-dashborad-9001/consumer-hystrix-dashborad-9001.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-7001/eureka-7001.iml" filepath="$PROJECT_DIR$/eureka-7001/eureka-7001.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-7002/eureka-7002.iml" filepath="$PROJECT_DIR$/eureka-7002/eureka-7002.iml" />
       <module fileurl="file://$PROJECT_DIR$/eureka-7003/eureka-7003.iml" filepath="$PROJECT_DIR$/eureka-7003/eureka-7003.iml" />

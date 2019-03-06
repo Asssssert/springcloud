@@ -24,7 +24,6 @@ mybatis:
   mapper-locations:
   - classpath:mybatis/mapper/**/*.xml
 
-
 eureka:
   client:
     service-url:
@@ -37,3 +36,12 @@ info:
   company.name: iilei
   build.artifactId: $project.artifactId$
   build.version: $project.version$
+management:
+  endpoints:
+    web:
+      exposure:
+#        include: ["health","info","hystrix.stream"]
+        include: '*'
+#feign:
+#  hystrix:
+#    enabled: true

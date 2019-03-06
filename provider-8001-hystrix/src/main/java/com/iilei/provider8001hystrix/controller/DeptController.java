@@ -21,7 +21,7 @@ public class DeptController {
         return deptService.add(dept);
     }
 
-//    @HystrixCommand(fallbackMethod = "errorReq")// 如果当前调用的get()方法出现了错误，则执行fallback
+    @HystrixCommand(fallbackMethod = "errorReq")// 如果当前调用的get()方法出现了错误，则执行fallback
     @GetMapping(value = "/dept/get/{id}")
     public Dept get(@PathVariable Long id) {
         Dept dept = deptService.get(id);
