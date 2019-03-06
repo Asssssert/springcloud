@@ -1,4 +1,4 @@
-package com.iilei.provider8001;
+package com.iilei.provider8001hystrix;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -9,10 +9,11 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 @EnableEurekaClient
 @EnableDiscoveryClient
-public class ProviderApplication {
+@EnableCircuitBreaker
+public class Provider8001HystrixApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProviderApplication.class, args);
+        SpringApplication.run(Provider8001HystrixApplication.class, args);
     }
 
 }

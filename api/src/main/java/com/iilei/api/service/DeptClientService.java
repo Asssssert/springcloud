@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.PostMapping;
 
 import java.util.List;
 
-@FeignClient(value = "PROVIDER-DEPT")
-public interface DeptService {
+@FeignClient(value = "PROVIDER-DEPT", fallbackFactory = DeptClientServiceFallBackFactory.class)
+public interface DeptClientService {
     @PostMapping(value = "/dept/add")
     public boolean add(Dept dept);
 

@@ -14,6 +14,7 @@
         <module name="eureka-7002" />
         <module name="eureka-7003" />
         <module name="provider-8001" />
+        <module name="provider-8001-hystrix" />
         <module name="provider-8002" />
         <module name="provider-8003" />
         <module name="springcloud" />
@@ -29,6 +30,7 @@
       <module name="eureka-7002" target="1.8" />
       <module name="eureka-7003" target="1.8" />
       <module name="provider-8001" target="1.8" />
+      <module name="provider-8001-hystrix" target="1.8" />
       <module name="provider-8002" target="1.8" />
       <module name="provider-8003" target="1.8" />
       <module name="springcloud" target="1.8" />
@@ -44,6 +46,7 @@
       <module name="eureka-7002" options="-parameters" />
       <module name="eureka-7003" options="-parameters" />
       <module name="provider-8001" options="-parameters" />
+      <module name="provider-8001-hystrix" options="-parameters" />
       <module name="provider-8002" options="-parameters" />
       <module name="provider-8003" options="-parameters" />
       <module name="springcloud" options="-parameters" />
