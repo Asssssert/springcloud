@@ -15,3 +15,12 @@ info:
   company.name: iilei
   build.artifactId: ${project.artifactId}
   build.version: ${project.version}
+zuul:
+  prefix: /api  #前缀
+  ignored-services: "*"  #忽略所有的，只能使用自定义的路由
+  #  ignored-services: provider-dept #单个
+  routes:  #域名映射
+    provider.serviceId: provider-dept
+    provider.path: /provider/**
+
+
