@@ -19,6 +19,7 @@
         <option value="$PROJECT_DIR$/consumer-hystrix-dashborad-9001/pom.xml" />
         <option value="$PROJECT_DIR$/zuul-9527/pom.xml" />
         <option value="$PROJECT_DIR$/config-3344/pom.xml" />
+        <option value="$PROJECT_DIR$/config-client-3355/pom.xml" />
       </list>
     </option>
   </component>

@@ -1,22 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="bb808bef-3cea-4c97-9ba6-288d31e3353e" name="Default Changelist" comment="zuul域名映射，前缀">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_javaewah_JavaEWAH_1_1_6.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jsch_0_1_54.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jcraft_jzlib_1_1_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_5_1_3_201810200350_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_jgit_org_eclipse_jgit_http_apache_5_1_3_201810200350_r.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_commons_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_client_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_config_server_2_1_1_RELEASE.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_context_2_1_1_RELEASE.xml" afterDir="false" />
+    <list default="true" id="bb808bef-3cea-4c97-9ba6-288d31e3353e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_2_1_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_config_2_1_1_RELEASE.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config-3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config-3344/src/main/resources/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -35,6 +28,7 @@
     <ignored path="$PROJECT_DIR$/consumer-hystrix-dashborad-9001/target/" />
     <ignored path="$PROJECT_DIR$/zuul-9527/target/" />
     <ignored path="$PROJECT_DIR$/config-3344/target/" />
+    <ignored path="$PROJECT_DIR$/config-client-3355/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,11 +40,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-client-3355/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config-client-3355/src/main/resources/bootstrap.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/config-3344/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="288">
+              <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -79,12 +91,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/provider/pom.xml" />
-        <option value="$PROJECT_DIR$/consumer-80/src/main/java/com/iilei/consumer80/controller/DeptController.java" />
-        <option value="$PROJECT_DIR$/consumer-80/pom.xml" />
-        <option value="$PROJECT_DIR$/consumer/src/main/java/com/iilei/consumer/config/ConfigBean.java" />
-        <option value="$PROJECT_DIR$/consumer/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/consumer/pom.xml" />
         <option value="$PROJECT_DIR$/provider-8002/pom.xml" />
         <option value="$PROJECT_DIR$/provider-8003/pom.xml" />
         <option value="$PROJECT_DIR$/provider-8002/src/main/java/com/iilei/provider8002/service/impl/DeptServiceImpl.java" />
@@ -129,6 +135,12 @@
         <option value="$PROJECT_DIR$/../spring-cloud-config/spring-cloud-config/application.yml" />
         <option value="$PROJECT_DIR$/config-3344/src/main/java/com/iilei/config3344/Config3344Application.java" />
         <option value="$USER_HOME$/Desktop/hosts" />
+        <option value="$PROJECT_DIR$/../spring-cloud-config/spring-cloud-config/config-client-3344.yml" />
+        <option value="$PROJECT_DIR$/config-client-3355/src/main/java/com/iilei/configclient3355/ConfigClient3355Application.java" />
+        <option value="$PROJECT_DIR$/config-client-3355/src/main/resources/config-client-dev.yml" />
+        <option value="$PROJECT_DIR$/config-client-3355/src/main/resources/config-client-test.yml" />
+        <option value="$PROJECT_DIR$/config-client-3355/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/config-client-3355/src/main/resources/bootstrap.yml" />
         <option value="$PROJECT_DIR$/config-3344/src/main/resources/application.yml" />
       </list>
     </option>
@@ -178,6 +190,32 @@
               <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
               <item name="springcloud" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-3344" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-3344" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-3344" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="springcloud" type="b2602c69:ProjectViewProjectNode" />
+              <item name="springcloud" type="462c0819:PsiDirectoryNode" />
+              <item name="config-3344" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -193,7 +231,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551943580366" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1551949869542" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../codes/microservicecloud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -211,11 +249,11 @@
       <recent name="com.iilei.consumer80.controller" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\study\springcloud\config-client-3355\src\main\resources" />
       <recent name="E:\study\springcloud\provider-8001-hystrix\src\main\java\com\iilei\provider8001hystrix" />
       <recent name="E:\study\springcloud\provider-8001-hystrix\src\main\resources" />
       <recent name="E:\study\springcloud\provider-8003\src\main\resources" />
       <recent name="E:\study\springcloud\provider-8002\src\main\resources" />
-      <recent name="E:\study\springcloud\provider-8003\src\main\java\com\iilei\provider8003" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -230,7 +268,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.Config3344Application">
+  <component name="RunManager" selected="Spring Boot.ConfigClient3355Application">
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
       <module name="springcloud" />
       <working_directory value="$PROJECT_DIR$" />
@@ -260,6 +298,13 @@
     <configuration name="Config3344Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="config-3344" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.iilei.config3344.Config3344Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClient3355Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="config-client-3355" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.iilei.configclient3355.ConfigClient3355Application" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -373,6 +418,7 @@
       <item itemvalue="Spring Boot.ConsumerHystrixDashborad9001Application" />
       <item itemvalue="Spring Boot.Zuul9527Application" />
       <item itemvalue="Spring Boot.Config3344Application" />
+      <item itemvalue="Spring Boot.ConfigClient3355Application" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -394,7 +440,7 @@
       <workItem from="1551854587043" duration="6377000" />
       <workItem from="1551861683725" duration="4911000" />
       <workItem from="1551921519946" duration="1014000" />
-      <workItem from="1551941401910" duration="2175000" />
+      <workItem from="1551941401910" duration="8207000" />
     </task>
     <task id="LOCAL-00001" summary="ribbon负载均衡多微服务配置">
       <created>1551775459228</created>
@@ -473,11 +519,18 @@
       <option name="project" value="LOCAL" />
       <updated>1551864368049</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="spring cloud config配置中心学习">
+      <created>1551943615750</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1551943615750</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51969000" />
+    <option name="totallyTimeSpent" value="58001000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -535,72 +588,14 @@
     <MESSAGE value="修改一点信息" />
     <MESSAGE value="初步学习zuul" />
     <MESSAGE value="zuul域名映射，前缀" />
-    <option name="LAST_COMMIT_MESSAGE" value="zuul域名映射，前缀" />
+    <MESSAGE value="spring cloud config配置中心学习" />
+    <option name="LAST_COMMIT_MESSAGE" value="spring cloud config配置中心学习" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/consumer-80/src/main/java/com/iilei/ribbon/rule/MyRibbon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#303#304#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-80/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/consumer-80/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" column="18" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-8003/src/main/java/com/iilei/provider8003/service/DeptService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-8001-hystrix/src/main/java/com/iilei/provider8001hystrix/dao/DeptDao.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/provider-8001-hystrix/src/main/resources/mybatis/mapper/DeptMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="96">
-          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/src/main/java/com/iilei/api/dto/JsonData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="15" column="23" lean-forward="true" selection-start-line="15" selection-start-column="23" selection-end-line="15" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/target/classes/com/iilei/api/service/DeptClientServiceFallBackFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <folding>
-            <element signature="e#0#885#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/target/classes/com/iilei/api/service/DeptClientService.class">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -897,13 +892,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../spring-cloud-config/spring-cloud-config/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="312">
-          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Desktop/hosts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -922,10 +910,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../spring-cloud-config/spring-cloud-config/config-client-3344.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../spring-cloud-config/spring-cloud-config/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client-3355/src/main/resources/config-client-test.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client-3355/src/main/resources/config-client-dev.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client-3355/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client-3355/src/main/java/com/iilei/configclient3355/ConfigClient3355Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-3344/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-288" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client-3355/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="23" column="55" lean-forward="true" selection-start-line="23" selection-start-column="55" selection-end-line="23" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-client-3355/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/config-3344/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+        <state relative-caret-position="288">
+          <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -981,7 +1030,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>springcloud</last-edited>
+          <last-edited>consumer-80</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

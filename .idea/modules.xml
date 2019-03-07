@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
       <module fileurl="file://$PROJECT_DIR$/config-3344/config-3344.iml" filepath="$PROJECT_DIR$/config-3344/config-3344.iml" />
+      <module fileurl="file://$PROJECT_DIR$/config-client-3355/config-client-3355.iml" filepath="$PROJECT_DIR$/config-client-3355/config-client-3355.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer/consumer.iml" filepath="$PROJECT_DIR$/consumer/consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-80/consumer-80.iml" filepath="$PROJECT_DIR$/consumer-80/consumer-80.iml" />
       <module fileurl="file://$PROJECT_DIR$/consumer-feign-80/consumer-feign-80.iml" filepath="$PROJECT_DIR$/consumer-feign-80/consumer-feign-80.iml" />
