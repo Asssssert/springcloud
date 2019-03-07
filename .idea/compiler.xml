@@ -7,6 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api" />
+        <module name="config-3344" />
         <module name="consumer" />
         <module name="consumer-80" />
         <module name="consumer-feign-80" />
@@ -24,6 +25,7 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="api" target="1.8" />
+      <module name="config-3344" target="1.8" />
       <module name="config-client-8083" target="1.8" />
       <module name="consumer" target="1.8" />
       <module name="consumer-80" target="1.8" />
@@ -44,6 +46,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="api" options="-parameters" />
+      <module name="config-3344" options="-parameters" />
       <module name="consumer" options="-parameters" />
       <module name="consumer-80" options="-parameters" />
       <module name="consumer-feign-80" options="-parameters" />
